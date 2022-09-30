@@ -3,3 +3,5 @@
 
 Unity版本：2020.3.40f1c1
 渲染管线：URP
+
+必须依赖Package：com.autodesk.fbx
