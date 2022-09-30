@@ -175,7 +175,7 @@ public static class FbxMeshNormalProcessor
             foreach (VertexInfo vertexInfo in vertexInfos)
             {
                 FbxVector4 tangent = meshTangents[vertexInfo.vertexIndex];
-                FbxVector4 binormal = vertexInfo.normal.CrossProduct(tangent);
+                FbxVector4 binormal = vertexInfo.normal.CrossProduct(tangent) * tangent.W;
                 double smoothNormalTS_X = smoothNormal.DotProduct(tangent);
                 double smoothNormalTS_Y = smoothNormal.DotProduct(binormal);
                 double smoothNormalTS_Z = smoothNormal.DotProduct(vertexInfo.normal);
