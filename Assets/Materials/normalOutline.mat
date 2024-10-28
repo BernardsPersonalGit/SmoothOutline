@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: outline
-  m_Shader: {fileID: 4800000, guid: c4256d837a1092840861b07efffd95da, type: 3}
+  m_Name: normalOutline
+  m_Shader: {fileID: 4800000, guid: 164dbd3b264ceaf4d947b84c9e0636f5, type: 3}
   m_ShaderKeywords: _NORMALSSTOREIN_UV3
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -93,7 +93,7 @@ Material:
     - _Metallic: 0
     - _NormalsStoreIn: 1
     - _OcclusionStrength: 1
-    - _OutlineWidth: 11.2
+    - _OutlineWidth: 12.3
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
