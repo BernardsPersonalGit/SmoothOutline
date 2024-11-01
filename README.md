@@ -3,6 +3,7 @@
 在Unity引擎中将模型（FBX格式）的硬边法线平滑化，将平滑化后的法线（经八面体压缩算法转换为Vector2）保存在模型UV中，并输出为新的FBX模型文件。
 
 展示场景：Assets/Scenes/SampleScene.unity
+主要代码：Assets/Editor/FbxMeshNormalProcessor.cs
 
 Unity版本：2020.3.40f1c1
 渲染管线：URP
@@ -15,6 +16,7 @@ UnityエンジンでFBX模型のハードエッジをスムーズ化する。
 最後には処理後の模型ファイルを新規FBX模型ファイルとして出力する。
 
 サンプルシーン：Assets/Scenes/SampleScene.unity
+メインコード：Assets/Editor/FbxMeshNormalProcessor.cs
 
 Unityバージョン：2020.3.40f1c1
 レンダーパイプライン：URP
